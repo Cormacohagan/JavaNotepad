@@ -108,6 +108,8 @@ public class JavaNotepad extends JFrame implements ActionListener {
         else if (e.getSource() == this.close) //Listening for user interacting with close button
             this.dispose(); //Using dispose instead of System.exit because I only want to close the current window rather than the entire VM.     
         
+        
+        //About Button
         else if (e.getSource() == this.about){
             JOptionPane.showMessageDialog(this, "Java Notepad v0.01 by Cormac O'Hagan");
         }
